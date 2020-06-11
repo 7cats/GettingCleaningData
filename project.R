@@ -56,7 +56,7 @@ aveMeanStd <-    ## final result of step 5
     summarise_if(is.numeric,mean,na.rm = T)  # get mean by group
 
 ### save the result
-write.csv(meanStd, file = "MeanSTD.csv")
-write.csv(aveMeanStd, file = "AveofMeanSTD.csv")
+write.csv(meanStd, file = "..\\MeanSTD.csv")
+write.csv(aveMeanStd, file = "..\\AveofMeanSTD.csv")
 
 
