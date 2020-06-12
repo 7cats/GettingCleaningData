@@ -59,4 +59,4 @@ aveMeanStd <-    ## final result of step 5
 write.csv(meanStd, file = "..\\MeanSTD.csv")
 write.csv(aveMeanStd, file = "..\\AveofMeanSTD.csv")
 
-
+write.table(aveMeanStd, file = "..\\AveofMeanSTD.txt")
